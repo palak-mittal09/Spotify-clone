@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo (1).png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;" >
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">search</a>
+                </div>
+            </div>
+            <div class="liberary">
+                <div class="options">
+                    <div class="lib-options nav-option">
+                        <img src="assets/library_icon.png" />
+                        <!-- <i class="fa-solid fa-book"></i>   have to inseart an image -->
+                         <a href="#">Your Liberary</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                 </div>   
+                 <div class="lib-box">
+                <div class="box"> 
+                        <p class="p1" style="font-size: 16px;">Create your first playlist</p>
+                        <p class="p2"> It's easy, we'll help you</p>
+                        <button type="button" class="badge" >Create playlist</button>
+                </div>
+                <div class="box">
+                     <p class="p1">let's find some podcasts to follow</p>
+                     <p class="p2">We'll keep you update on new episodes</p>
+                     <button type="button" class="badge">Browse podcasts</button>
+                 </div>
+                </div>
+             </div> 
+         </div>      
+         <div class="main-content">
+            <div class=" sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="assets/backward_icon.png" />
+                    <img src="assets/forward_icon.png" class="hide"/>
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge" ><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>                
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card1img.jpeg" class="card-img"/>
+                    <p class="card-title">Top 50 -Global</p>
+                    <p class="card-info">Your Daily Updates Of The Most Played...</p>
+                </div>
+            </div>
+
+             <h2>Trending Now Near You</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card2img.jpeg" class="card-img"/>
+                    <p class="card-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Darshan Raval</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card3img.jpeg" class="card-img"/>
+                    <p class="card-title">Pasoori Nu (From "s...</p>
+                    <p class="card-info">Arjit Singh ,Rochak Kohli ,Tulsi Kumar...</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card4img.jpeg" class="card-img"/>
+                    <p class="card-title">Naa Ready ( From "I..</p>
+                    <p class="card-info">Anirudh Ravichander, Thalapathy Vijay...</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://c.saavncdn.com/128/Mann-Bharrya-Reprised-Version-Punjabi-2017-20180315-500x500.jpg" class="card-img"/>
+                    <p class="card-title">Mann-Bharrya</p>
+                    <p class="card-info">Juss,Raheman,Roshan Prince...</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/d/d1/Babycoverart.jpg" class="card-img"/>
+                    <p class="card-title">Baby</p>
+                    <p class="card-info">Justin Bieber...</p>
+                </div>
+            </div>
+
+            <h2> Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card5img.jpeg" class="card-img"/>
+                    <p class="card-title">Top Songs -Global</p>
+                    <p class="card-info">Your Daily Updates Of The Most Played...</p>
+                </div>
+
+                 <div class="card">
+                    <img src="assets/card6img.jpeg" class="card-img"/>
+                    <p class="card-title">Top Songs -India</p>
+                    <p class="card-info">Your Daily Updates Of The Most Played...</p>
+                </div>
+
+                 <div class="card">
+                    <img src="assets/card1img.jpeg" class="card-img"/>
+                    <p class="card-title">Top 50 -Global</p>
+                    <p class="card-info">Your Daily Updates Of The Most Played...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+
+
+
+
+           
+         </div> 
+         <div class=" music-player">
+            <div class="album">
+                <div class="album-image" >
+                <img src="assets/album_picture.jpeg" />
+                </div>
+                <div class="album-info">
+                <p class="player-song">Daylight</p>
+                <p class="player-name">David Kushner</p>
+                </div>
+                <div class="player-icons">
+                <img src="assets/album_icon1.png"  class="p-i-like"/>
+                <img src="assets/album_icon2.png" class="p-i-window" height="35px" width="24px"/>
+                </div>
+            </div>
+            <div class="player">
+                <div class="players-controls">
+                    <img src="./assets/player_icon1.png"  class="player-control-icons"/>
+                    <img src="./assets/player_icon2.png"  class="player-control-icons" />
+                    <img src="./assets/player_icon3.png"  class="player-control-icons" style="opacity: 1; height: 2rem;"/>
+                    <img src="./assets/player_icon4.png"   class="player-control-icons"/>
+                    <img src="./assets/player_icon5.png"  class="player-control-icons" />
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+
+
+            </div>
+            <div class="controls">
+                <div class="control-icons">
+                <img src="assets/controls_icon1.png" height="32px" />
+                <img src="assets/album_icon2.png" height="32px" />
+                <img src="assets/controls_icon3.png" />
+                <img src="assets/controls_icon4.png" />
+                <img src="assets/controls_icon5.png" />
+                </div>
+                <div>
+                    <input type="range" />
+                    <label for="range"></label>
+
+                </div>
+
+            </div>
+         </div>
+    </div>
+    
+</body>
+</html>
+
